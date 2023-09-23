@@ -1,0 +1,21 @@
+.title-pg5{
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    color: #224F34;
+    text-align: center;
+    margin-top: 150px;
+}
+.type-description{
+    font-family: Poppins;
+    font-size: 22px;
+    color: #373737;
+    text-align: center;
+}
+.product-type{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #373737;
+    font-family: Poppins;
+    font-size: 30px;
+    text-align: center;
+}

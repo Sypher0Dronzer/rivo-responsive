@@ -1,0 +1,71 @@
+.middle-section {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 2.35vw;
+  font-size: 1.5vmax;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: #224f34;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6vh;
+  padding-left: 9vw;
+  padding-right: 9vw;
+  margin-bottom: 5vmax;
+}
+.left-section {
+  font-family: "Fondamento", cursive;
+  font-weight: 800;
+  font-size: 3vw;
+  margin-right: 10vw;
+  color: #224f34;
+}
+.right-section {
+  display: flex;
+  gap: 3vw;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-section i {
+  color: #224f34;
+  font-size: 2.2vw;
+}
+.login-btn {
+  font-family: poppins;
+  font-size: 1.2vw;
+  padding: 0.5vw 1.7vw;
+  border-color: #224f34;
+  border-radius: 3px;
+  color: #224f34;
+  background-color: #c2efd4;
+}
+.menu {
+  display: none;
+}
+
+@media (max-width: 740px) {
+  .middle-section,
+  .right-section {
+    display: none;
+  }
+  .menu {
+    display: block;
+    color:#c2efd4;
+  }
+  .left-section, .menu{
+    font-size: 3.5vh;
+    color: #c2efd4;
+  }
+  .header{
+    justify-content: space-between;
+    padding: 2vh 2.3vh;
+    background-color:#224f34;
+    color: #e6f1eb;
+    margin-bottom: 0;
+  }
+}

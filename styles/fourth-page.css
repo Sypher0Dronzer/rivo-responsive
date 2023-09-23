@@ -1,0 +1,68 @@
+p{
+    padding: 0;
+    margin: 0px;
+}
+.exclusive{
+    font-size: 46px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #224F34;
+}
+.unlock{
+    margin-top: 20px;
+    font-size: 22px;
+    font-family: Poppins;
+    color: #224F34;
+    line-height: 40px;
+    text-align: left;
+}
+.right-half{
+    padding-top: 70px;
+    width: 600px;
+}
+.countdown{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    column-gap: 20px;
+}
+.time{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    color: #224F34;
+    font-size: 32px;
+    font-family: Poppins;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+.time-qty{
+    font-size: 16px;
+}
+.buy-now-btn{
+    font:Poppins;
+    font-size: 20px;
+    color: white;
+    background-color: #224F34;
+    border: none;
+    border-radius: 3px;
+    padding: 25px 60px;
+    margin-top: 60px;
+
+}
+.left-half{
+    position: relative;
+}
+.pg4-dots{
+    position: absolute;
+    left: 23px;
+    bottom: 43px;
+}
+.pg4-model{
+    position: absolute;
+    left: 61px;
+}

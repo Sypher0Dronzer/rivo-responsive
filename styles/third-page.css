@@ -1,0 +1,33 @@
+.title-pg3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    color: #224F34;
+    text-align: center;
+    margin-top: 100px;
+}
+.product-nav{
+    margin-top: 60px;
+    color: #454545;
+    font-family: Poppins;
+    font-size:22px;
+    display: flex;
+    column-gap: 100px;
+}
+.nav-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hot-products{
+    margin-top: 70px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.product-img{
+    width: 318px;
+    height: 378px;
+}

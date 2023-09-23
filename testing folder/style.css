@@ -1,0 +1,54 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.main {
+    height: 100%;
+    position: relative;
+}
+.nav{
+    background-color: lightseagreen;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+}
+.nav2{
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+    justify-content: center;
+}
+.nav h2{
+    font-size: 2vw;
+    font-weight: 700;
+}
+.nav2 h4{
+    font-size: 1.3vw;
+}
+.nav i{
+    font-size: 2vw;
+    display: none;
+}
+@media (max-width: 600px) {
+    .nav h2{
+        font-size: 2vh;
+    }
+    .nav2 h4{
+        display: none;
+    }
+    .nav i{
+        font-size: 2.5vh;
+        display: block;
+        font-weight: 800;
+    }
+    .nav{
+        padding: 0 3vh;
+        color: white;
+    }
+    
+}

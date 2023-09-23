@@ -1,0 +1,84 @@
+.footer{
+    margin-top: 150px;
+    background-color: #224F34;
+    height: 300px;
+    padding-left: 130px;
+    padding-right: 130px;
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+    padding-top: 100px;
+    color: white;
+
+}
+.mid-foot{
+    display: flex;
+    justify-content: center;
+
+}
+.center-mid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+}
+
+.foot-rivo{
+    margin-bottom: 50px;
+}
+.social-media{
+    font-size: 22px;
+    font-family: Roboto;
+    margin-bottom: 25px;
+}
+.social-apps{
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+}
+.shop-items, .company-items{
+    font-family: Poppins;
+    font-size: 20px;
+    color: #C2EFD4;
+    margin-top: 20px;
+}
+.shop-title, .company-title{
+    color: FFFFFF;
+    font-family: Roboto slab;
+    font-size: 22px;
+}
+.shop , .company{
+    display: flex;
+    flex-direction: column;
+
+}
+.stay-up2date{
+    color: white;
+    font-size: 22px;
+    font-family: roboto slab;
+    text-align: left;
+}
+.mail{
+    font-size: 20px;
+    font-family: poppins;
+    border-radius: 3px;
+    border-color: #A3F3BE;
+    background-color: #224F34;
+    border-width: 2px;
+    padding: 5px 20px;
+}
+.mail::placeholder{
+    color: white;
+}
+.mail-submit{
+    color: #224F34;
+    font-family: Poppins;
+    font-size: 20px;
+    background-color: #A3F3BE;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 15px;
+    position: absolute;
+    left: 293px;
+}
+.mail-div{
+    margin-top: 25px;
+    position: relative;
+}

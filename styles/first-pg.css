@@ -1,0 +1,101 @@
+.title {
+  font-family: "Rufina", serif;
+  font-size: 5.5vmax;
+  color: #224f34;
+}
+.title-box {
+  padding-top: 3vmax;
+  padding-left: 9vw;
+  width: 50%;
+}
+.title-right {
+  padding-right: 9vw;
+  padding-top: 3vmax;
+  width: 50%;
+
+  display: flex;
+  justify-content: end;
+}
+.explore {
+  margin-top: 3vh;
+  font-family: Poppins;
+  text-align: left;
+  font-size: 1.5vmax;
+  line-height: 45px;
+  width: 75%;
+  color: #267d49;
+  line-height: 2.7vmax;
+}
+.explore-btn {
+  font: Poppins;
+  font-size: 1.2vw;
+  color: white;
+  background-color: #224f34;
+  border: none;
+  border-radius: 3px;
+  padding: 2.5vh 3vw;
+  margin-top: 5vh;
+}
+.model-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.model-pic {
+  height: auto;
+  width: 35.5vw;
+}
+
+.box-1 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5vw;
+}
+
+
+@media (max-width: 740px) {
+  .box-1 {
+    flex-direction: column-reverse;
+    padding-bottom: 0;
+  }
+  .title-box {
+    padding-right: 2.3vh;
+    padding-left: 2.3vh;
+    width: calc(100vw - 4.6vh);
+    background-image: url("../images/model-phone3.jpg");
+    background-size: cover; /* Ensure the image covers the entire element */
+    background-position: center;
+    width: calc(100vw - 4.6vh);
+    height: auto;
+    padding-bottom: 4.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title {
+    font-size: 10.5vw;
+    font-weight: 600;
+  }
+  .title-right {
+    display: none;
+  }
+  .explore-btn {
+    font-family: poppins;
+    font-size: 1.2vh;
+    padding: 1.5vh 3.5vh;
+    border-color: #224f34;
+    border-radius: 3px;
+    /* color: #224f34; */
+    /* background-color: #c2efd4;
+   */
+    background-color: #498849;
+
+    font-weight: 600;
+  }
+  .explore {
+    padding-top: 20vh;
+    width: calc(100vw - 4.6vh);
+    font-size: 2vh;
+    font-weight: 600;
+  }
+}

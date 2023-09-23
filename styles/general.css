@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.first-pg {  
+  background-color: #c2efd4;
+}
+.container{
+  padding-left: 9vw;
+  padding-right: 9vw;
+}
+@media (max-width:740px) {
+  .container{
+    padding-right: 2.3vh;
+    padding-left: 2.3vh;}
+}
